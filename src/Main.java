@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
        int startSum = 100;
-       int deposit = 1050;
+       int deposit = 1000;
        int bonus;
        int finalSum;
 
-       if (deposit >= 1100) {
+       if (deposit >= 1000) {
            finalSum = deposit / 100 + deposit + startSum; bonus = deposit / 100;
        } else {
            finalSum = deposit + startSum; bonus = 0;
